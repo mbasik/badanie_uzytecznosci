@@ -1,0 +1,1151 @@
+html, body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+    font-family: Verdana;
+}
+.navbar{
+	float:right;
+	margin-top: -40px;
+
+}
+
+.meble{
+	margin-top: 20px;
+	z-index: -1;
+	width: 500px;
+	height:300px;
+	padding-left: 125px;
+	padding-right: 20px;
+}
+.biurka{
+	width: 400px;
+	height:300px;
+	padding-left: 20px;
+}
+.dodatki{
+	padding-left: 125px;
+	padding-top: 20px;
+	width: 950px;
+	height:450px;
+}
+.oswietlenie{
+	padding-left: 125px;
+	padding-right: 20px;
+	padding-top: 20px;
+	width:500px;
+	height: 300px;
+}
+.bizuteria{
+	padding-top: 20px;
+	width: 425px;
+	height: 300px;
+}
+#obrazek{
+	margin-top: 800px;
+	display: block;
+	float: left;
+	width: 10px;
+    height: 10px;
+}
+#obrazek:before {
+    content: url('img/meble.jpg');
+    width: 10px;
+    height: 10px;
+}
+#obrazek:hover{
+	content: url('img/logo.png');
+    top: 700px;
+    left: 10px;
+    position: absolute;
+}
+.promocje{
+	color:red;
+}
+nav ol{
+	list-style-type: none;
+	margin-left: 170px;
+	height:2em;
+  	line-height:2em;
+  	text-align:center;
+}
+nav li{
+	display: inline;
+	margin: 0 40px 1px 0;
+}
+nav ol a{
+	text-decoration: none;
+	color:grey;
+	display: block;
+}
+nav a:hover{
+	color:black;
+}
+ol > li{
+	float:left;
+} 
+ol > li > ul{ 
+     display: none; 
+     left: 0px; 
+     top: 30px; 
+     width: 200px; 
+     text-align: left;
+     background-color: #fcfcfc;
+     border: 1px solid #ccc;
+}
+ol > li:hover > ul {
+  display:block;
+}
+.kontakt2{
+	margin-top: 0px;
+	margin-left: 150px;
+	font-size: 0.8em;
+}
+.producenci2{
+	margin-left: 450px;
+	font-size: 0.8em;
+	margin-top: -150px;
+}
+.regulaminy2{
+	margin-left: 850px;
+	font-size: 0.8em;
+	margin-top: -150px; 
+}
+.podpis2{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin-left: 470px;
+	font-size: 0.8em;
+
+}
+.top{
+        position: fixed;
+        bottom: 80px;
+        float: right;
+        right: 6.5%;
+        left: 91.25%;
+        max-width: 50px;
+        width: 100%;
+        font-size: 20px;
+        background-color: white;
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+.top:hover {
+        background-color: #7dbbf1;
+    }
+
+.header{
+	margin-top: 5px;
+	margin-left: 100px;
+	width: 90%;
+	position: center;
+}
+.projekt_zdj{
+	margin-left: 200px;
+}
+.main{
+	margin-top: -8px;
+	float: center;
+	width:1000px;
+	height: 350px;
+}
+.basket{
+	position: relative;
+	float: right;
+	margin-right: 150px;
+	margin-top: 20px;
+}
+.ikonka{
+	width: 20%;
+}
+.glowna{
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+	font-size: 0.5em;
+}
+.navigation{
+	font-family: Verdana;
+	font-size: 20px;
+	color: grey;
+	margin-left: 5px;
+
+}
+h1{
+	margin-top: 20px;
+}
+p{
+	margin-left: 20px;
+}
+.wyszukiwarka{
+	margin-top: 20px;
+	margin-left: 650px;
+}
+.przelacznik{
+	width: 8%;
+	height: 8%;
+	margin-left: 1180px;
+	margin-top: -20px;
+}
+.belka{
+	width: 1250px;
+	height: 3px;
+	background-color: white;
+}
+.zaloguj{
+	margin-left: 400px;
+	margin-top: 100px;
+}
+.logowanie{
+	margin-left: 1000px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em; 
+	color: black;
+}
+.bad_logowanie{
+	font-size: 0.5em;
+}
+footer{
+	margin-bottom:0;
+	margin-top: 100px;	
+}
+#kolekcja{
+	width: 1200px;
+	height:800px;
+	margin-left: 1200px;
+	margin-top: 500px;
+	padding-top: 0px;
+}
+#kolekcja2{
+	margin-top: 30px;
+	width: 1200px;
+	height: 800px;
+	margin-left: 1200px;
+}
+#kolekcja3{
+	margin-top: 500px;
+	width: 1300px;
+	height: 800px;
+	margin-left: 1280px;
+}
+#paragraf{
+	margin-left: 350px;
+	font-weight: bold;
+}
+#boczny{
+	margin-left: 1700px;
+	margin-top: -60px;
+	font-weight: bold;
+}
+#boczny2{
+	margin-left: 1900px;
+	margin-top: -70px;
+	font-weight: bold;
+	color:white;
+}
+#boczny3{
+	margin-left: 1700px;
+	margin-top: -490px;
+	font-weight: bold;
+	color:white;
+}
+.kontakt{
+    width: 250px;
+	margin-left: 180px;
+	font-size: 13px;
+	position: relative;
+}
+.bad_kontakt{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.producenci{
+	margin-left: 570px;
+	margin-top: -150px;
+	width: 350px;
+	font-size: 13px;
+	position: relative;
+}
+.regulaminy{
+	width: 150px;
+	margin-left: 990px;
+	margin-top: -160px;
+	font-size: 13px;
+}
+.podpis{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 470px;
+	font-size: 0.8em;
+}
+.info{
+	margin-top: -130px;
+}
+.logo2{
+	margin-left: 90px;
+	margin-top: 210px;
+}
+.tekst_boczny{
+	margin-top: -120px;
+	margin-left: 290px;
+	width: 75%;
+	font-size: 0.8em;
+}
+aside{
+	float:left;
+	width:14%;
+	font-style: Verdana;
+	color: black;
+	margin-top: -78px;
+	margin-left: 18px;
+}
+article{
+	margin-top: 0px;
+	margin-left: 200px;
+}
+.zdjecie{
+	width: 300px;
+	height: 300px;
+	margin-left: 15px;
+}
+.nazwa{
+	margin-left: 350px;
+	margin-top: -230px;
+}
+.opis{
+	margin-left: 350px;
+}
+.cena{
+	width: 120px;
+	height: 10px;
+	margin-top: 100px;
+	margin-left: 800px;
+	color: grey;
+}
+.dodaj{
+	margin-left: 800px;
+	margin-top: 50px;
+}
+a{
+	text-decoration: none;
+}
+h6{
+	font-weight: normal;
+	font-size: 1em;
+	color: red;
+	margin-bottom: 1px;
+}
+h3{
+ margin-top: 2px; 
+ font-weight: normal;
+ font-size: 0.9em;
+ color: grey;
+}
+section{
+	width: 90%;
+	margin-top: 100px;
+}
+.sortowanie{
+	margin-top: 50px;
+	color: black;
+	margin-left: 80px;
+	padding-left: 10px;
+	padding-top: 10px;
+	display: inline;
+}
+.koszyk{
+	margin-top: 80px;
+	width:1250px;
+	height:50px;
+	border-color: black;
+	background-color: grey;
+}
+#koszyk_tekst{
+	padding-top: 15px;
+	padding-left: 5px;
+	color: white;
+	font-size: 0.8em;
+
+}
+.dodano_koszyk{
+	margin-top: 80px;
+	margin-bottom: 20px;
+	width:1250px;
+	height:50px;
+	border-color: black;
+	background-color: MediumSeaGreen;
+
+}
+#uwaga{
+	margin-top: 50px;
+	color: black;
+	font-size: 0.8em;
+	margin-bottom: 100px;
+}
+/* ŹLE ZAPROJEKTOWANA STRONA INTERNETOWA*/
+.main2{
+	margin-left: 0px;
+}
+p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bad_regulamin{
+	color: red;
+}
+.bad_zaloguj{
+	margin-left: 300px;
+	margin-top: 100px;
+}
+.regulamin{
+	text-align: center;
+	width: 100%;
+}
+.polityka{
+	color: red;
+	margin-left: 10px;
+}
+#bad_paragraf{
+	margin-left: 50px;
+}
+.sortowanie{
+	padding-left: 10px;
+	padding-top: 50px;
+}
+.bad_login{
+	margin-top: 70px;
+}
+.section{
+	margin-left: 50px;
+}
+.podpis2{
+	margin-top: 140px;
+}
+@media all and (max-width: 700px){
+	.section{
+		margin-top: 80px;
+	}
+	.koszyk{
+		width:325px;
+		height:50px;
+	}
+	.projekt_zdj{
+		margin-left: 20px;
+		width: 90%;
+	}
+	.przypomnienie{
+	margin-left: 70px;
+	}
+	nav ol{
+	list-style-type: none;
+	margin-left: 0px;
+	height:2em;
+  	line-height:2em;
+  	text-align:center;
+	}
+	nav li{
+	display: block;
+	margin: 0 40px 1px 0;
+	}
+	nav ol a{
+	text-decoration: none;
+	color:grey;
+	display: block;
+	font-size: 0.6em;
+	}
+	.tekst_boczny{
+		margin-top: 200px;
+		margin-left: 10px;
+	}
+	.podpis{
+		margin-left: 0px;
+		margin-top: 40px;
+	}
+	.kontakt{
+		margin-left: 0px;
+	}
+	.producenci{
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+	.regulaminy{
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+	.logo2{
+		display: none;
+	}
+	.zaloguj{
+		margin-left: 20px;
+		font-size: 0.6em;
+	}
+	aside{
+		margin-left: 20px;
+		margin-top: 10px;
+		font-size: 0.8em;
+	}
+	.glowna{
+		margin-top: 90px;
+		width: 20px;
+		height: 20px;
+	}
+	ul{
+		display: none;
+	}
+	section{
+		width: 160px;
+		height: 100px;
+		margin-left: 0px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+	.top{
+		display: none;
+	}
+	.regulaminy{
+		margin-left: 0px;
+	}
+	.sortowanie{
+		margin-bottom: 100px;
+	}
+	.nazwa{
+		width: 150px;
+		margin-left: 130px;
+		margin-top: -120px;
+		font-size: 0.8em;
+	}
+	.zdjecie{
+		margin-top: 0px;
+		width: 100px;
+		height: 100px;
+	}
+	.opis{
+		font-size: 0.8em;
+		margin-left: 130px;
+		width: 150px;
+	}
+	.dodaj{
+		margin-left: 200px;
+		margin-top: 20px;
+	}
+	.cena{
+		margin-left: 180px;
+		font-size: 0.8em;
+		margin-top: 10px;
+	}
+	#kolekcja{
+		margin-top: 0px;
+		margin-left: 20px;
+		width:300px;
+		height: 200px;
+	}
+	#kolekcja2{
+		margin-top: 80px;
+		margin-left: 20px;
+		width:300px;
+		height: 200px;
+	}
+	#kolekcja3{
+		margin-top: 200px;
+		margin-left: 20px;
+		width:300px;
+		height: 200px;
+	}
+	#boczny{
+		font-size: 0.5em;
+		margin-left: 20px;
+		margin-top: -20px;
+	}
+	#boczny2{
+		font-size: 0.5em;
+		margin-left: 20px;
+		margin-top: -30px;
+		width: 300px;
+	}
+	#boczny3{
+		font-size: 0.5em;
+		margin-left: 20px;
+		margin-top: -120px;
+	}
+	.header{
+		margin-left: 20px;
+	}
+	.logowanie{
+		margin-left: 200px;
+	}
+	.przelacznik{
+		margin-left: 330px;
+		margin-top: 10px;
+	}
+	.wyszukiwarka{
+		margin-left: 100px;
+	}
+	.bad_zaloguj{
+		font-size: 0.8em;
+		margin-left: 100px;
+	}
+	.bad__login{
+		margin-top: 300px;
+		color: red;
+	}
+	.main{
+		width: 96%;
+		height: 50%;
+	}
+	.top{
+		margin-left: -50px;
+	}
+	.basket{
+		margin-top: -8px;
+		margin-right: 10px;
+		font-size: 0.8em;
+	}
+	.meble{
+		margin-left: -50px;
+		width:70%;
+		height: 50%;
+	}
+	.biurka{
+		margin-left: 50px;
+		width:70%;
+		height: 30%;
+
+	}
+	#paragraf{
+		margin-top: -10px;
+		margin-left: 10px;
+	}
+	article{
+		margin-top: 100px;
+		width: 280px;
+		margin-left: 90px;
+	}
+	.dodatki{
+		margin-left: -50px;
+		width:70%;
+		height: 50%;
+
+	}
+	.oswietlenie{
+		margin-left: -50px;
+		width:70%;
+		height: 50%;
+
+	}
+	.bizuteria{
+		margin-left: 70px;
+		width:70%;
+		height: 50%;
+
+	}
+	h1{
+		margin-top: 10px;
+	}
+	.kontakt2{
+		margin-left: 100px;
+	}
+	.producenci2{
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.regulaminy2{
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.podpis2{
+		margin-left: 0px;
+		margin-top: 100px;
+	}
+}
+@media all and (max-width: 1000px) and (min-width: 700px) {
+
+	.projekt_zdj{
+		margin-left: 20px;
+		width: 90%;
+	}
+	.przypomnienie{
+		margin-left: 200px;
+	}
+	h1{
+		margin-top: 200px;
+	}
+	nav ol{
+	list-style-type: none;
+	margin-left: 0px;
+	height:2em;
+  	line-height:2em;
+  	text-align:center;
+	}
+	nav li{
+	display: block;
+	margin: 0 40px 1px 0;
+	}
+	nav ol a{
+	text-decoration: none;
+	color:grey;
+	display: block;
+	}
+	nav a:hover{
+	color:black;
+	}
+	.basket{
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+	.przelacznik{
+		margin-top: 3px;
+		margin-bottom: 2px;
+		margin-left: 600px;
+	}
+	.main{
+		width: 680px;
+		height: 300px;
+		margin-top: -15px;
+		margin-left: -100px;
+	}
+	.wyszukiwarka{
+		margin-left: 200px;
+	}
+	.zdjecie{
+		margin-left: -30px;
+	}
+	.container{
+		display: block;
+	}
+	.biurka{
+		margin-left: 105px;
+		width: 500px;
+		margin-top: 10px;
+
+	}
+	.dodatki{
+		width: 500px;
+		height: 300px;
+
+	}
+	.bizuteria{
+		margin-left: 120px;
+		width: 500px;	
+	}
+	.kontakt2{
+		margin-left: 5px;
+	}
+	.producenci2{
+		margin-left: 245px;
+		margin-top: -110px;
+	}
+	.regulaminy2{
+		margin-left: 560px;
+		margin-top: -120px;
+	}
+	.podpis2{
+		margin-left: 10px;
+	}
+	.logowanie{
+		margin-left: 500px;
+	}
+	aside{
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+	section{
+		margin-right: 0px;
+		width: 500px;
+		height: 500px;
+	}
+	.kontakt{
+		margin-left: 0px;
+		margin-top: 1100px;
+	}
+	.producenci{
+		margin-left: 230px;
+		width: 280px;
+	}
+	.regulaminy{
+		margin-left: 525px;
+	}
+	.logo2{
+		margin-left: 5px;
+	}
+	.tekst_boczny{
+		margin-left: 200px;
+		width: 400px;
+	}
+	footer{
+		font-size: 0.8em;
+	}
+	.podpis{
+		margin-left: 100px;
+	}
+	.nazwa{
+		margin-left: 275px;
+		margin-top: -330px;
+		width: 200px;
+	}
+	.opis{
+		margin-left: 280px;
+		width: 200px;
+	}
+	.cena{
+		margin-left: 310px;
+	}
+	.dodaj{
+		margin-left: 310px;
+	}
+	.main{
+		margin-left: -100px;
+	}
+
+	#kolekcja{
+		margin-left: 50px;
+		width: 600px;
+		height: 400px;
+		margin-top: 100px;
+		margin-bottom: 5px;
+	}
+	#kolekcja2{
+		margin-top: 100px;
+		width: 600px;
+		height: 400px;
+		margin-left: 50px;
+	}
+	#boczny2{
+		margin-left: 100px;
+		width: 600px;
+		margin-top: -61px;
+	}
+	#boczny{
+		margin-left: 55px;
+	}
+	#boczny3{
+		margin-top: -210px;
+		margin-left: 100px;
+	}
+	#kolekcja3{
+		margin-top: 400px;
+		width:600px;
+		height: 400px;
+		margin-left: 50px;
+	}
+	#paragraf{
+		margin-left: 80px;
+	}
+	.zaloguj{
+		margin-left: 100px;
+	}
+}
+@media all and (max-width: 1100px) and (min-width: 1000px) {
+	.projekt_zdj{
+		margin-left: 20px;
+		width: 90%;
+	}
+	.kontakt{
+		margin-left: 50px;
+	}
+	.producenci{
+		margin-left: 350px;
+	}
+	.regulaminy{
+		margin-left: 750px;
+	}
+	.podpis{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	.przypomnienie{
+		margin-left: 200px;
+	}
+	h1{
+		margin-left: 10px;
+	}
+	.basket{
+		margin-left: -100px;
+	}
+	.przelacznik{
+		margin-top: 10px;
+		margin-left: 880px;
+	}
+	.meble{
+		margin-left: 150px;
+	}
+	.biurka{
+		margin-top: 20px;
+		margin-left: 250px;
+		width: 500px;
+		height: 400px;
+	}
+	.dodatki{
+		margin-left: 150px;
+		width: 500px;
+		height: 300px;
+	}
+	.oswietlenie{
+		margin-left: 150px;
+	}
+	.bizuteria{
+		margin-left: 280px;
+		width: 500px;
+		height: 300px;
+	}
+	.zdjecie{
+		margin-left: 0px;
+	}
+	.main{
+		margin-left: -100px;
+	}
+	.nazwa{
+		margin-left: 320px;
+	}
+	.opis{
+		margin-left: 320px;
+		width: 300px;
+	}
+	.cena{
+		margin-left: 500px;
+	}
+	.dodaj{
+		margin-left: 490px;
+	}
+	#kolekcja{
+		margin-left: 100px;
+		width: 800px;
+		height: 500px;
+		margin-top: 100px;
+		margin-bottom: 5px;
+	}
+	#kolekcja2{
+		margin-top: 100px;
+		width:800px;
+		height: 500px;
+		margin-left: 100px;
+	}
+	#boczny2{
+		margin-left: 100px;
+		width: 800px;
+		margin-top: -61px;
+	}
+	#boczny{
+		margin-left: 100px;
+	}
+	#boczny3{
+		margin-top: -210px;
+		margin-left: 300px;
+	}
+	#kolekcja3{
+		margin-top: 400px;
+		width:800px;
+		height: 500px;
+		margin-left: 100px;
+	}
+	#paragraf{
+		margin-left: 80px;
+	}
+	section{
+		margin-right: 0px;
+	}
+	.wyszukiwarka{
+		margin-left: 400px;
+	}
+	.logowanie{
+		margin-left: 800px;
+	}
+}
+@media all and (max-width: 1200px) and (min-width: 1100px) {
+	.projekt_zdj{
+		margin-left: 20px;
+		width: 90%;
+	}
+	section{
+		width: 400px;
+		height: 400px;
+		margin-left: 250px;
+	}
+	.przypomnienie{
+		margin-left: 200px;
+	}
+	aside{
+		margin-left: 15px;
+	}
+	p{
+		margin-left: -100px;
+		margin-top: 0px;
+	}
+	h1{
+		margin-left: 50px;	
+		margin-top: 100px;
+	}
+	nav ol{
+	list-style-type: none;
+	margin-left: 200px;
+	height:2em;
+  	line-height:2em;
+  	text-align:center;
+	}
+	.regulamin{
+		margin-left: 10px;
+		margin-right: 10px;
+	}	
+	#kolekcja{
+		margin-left: 120px;
+		width: 800px;
+		height: 500px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	#kolekcja2{
+		margin-top: 100px;
+		width:800px;
+		height: 500px;
+		margin-left: 100px;
+	}
+	#boczny{
+		margin-left: 130px;
+	}
+	#boczny2{
+		margin-left: 100px;
+		margin-top: -61px;
+		width: 800px;
+	}
+	#boczny3{
+		margin-top: -310px;
+		margin-left: 300px;
+	}
+	#kolekcja3{
+		margin-top: 400px;
+		width:800px;
+		height: 500px;
+		margin-left: 100px;
+	}
+	.glowna{
+		margin-top: 100px;
+	}
+	.zdjecie{margin-left: -250px;
+		margin-top: 0px;
+	}
+	.nazwa{
+		margin-left: 60px;
+	}
+	.opis{
+		margin-left: 60px;
+	}
+	footer{
+	}
+	.cena{
+		margin-left: 60px;
+	}
+	.dodaj{
+		margin-left: 60px;
+	}
+	.main{
+		margin-left: -100px;
+	}
+	.przelacznik{
+		margin-left: 900px;
+	}
+	.logowanie{
+		margin-left: 800px;
+		margin-bottom: 40px;
+	}
+	.wyszukiwarka{
+		margin-left: 300px;
+	}
+	.meble{
+		margin-left: 150px;
+	}
+	.biurka{
+		margin-top: 30px;
+		margin-left: 280px;
+	}
+	.dodatki{
+		width: 500px;
+		height: 300px;
+		margin-left: 150px;
+	}
+	.oswietlenie{
+		margin-left: 150px;
+	}
+	.bizuteria{
+		margin-left: 300px;
+	}
+	#paragraf{
+		margin-left: 100px;
+	}
+}
+@media all and (min-width: 1200px) {
+	h1{
+		margin-left: 20px;
+	}
+	.producenci2{
+		margin-top: -140px;
+	}
+	.przypomnienie{
+		margin-left: 200px;
+	}
+	.projekt_zdj{
+		margin-left: 100px;
+		width: 60%;
+	}
+	.przelacznik{
+		margin-left: 1000px;
+		width: 80px;
+		margin-top: 20px;
+	}
+	.basket{
+		margin-left: -200px;
+	}
+	aside{
+		width: 200px;
+
+	}
+	form{padding-bottom: 50px;}
+	article{
+		margin-bottom: 50px;
+	}
+	footer{
+	}
+	#uwaga{
+		margin-left: 10px;
+	}
+	#kolekcja{
+		margin-top: 0px;
+		margin-left: 100px;
+		width: 80%;
+		height: 80%;
+	}
+	#kolekcja2{
+		margin-top: 80px;
+		margin-left: 100px;
+		width: 80%;
+		height: 80%;
+	}
+	#kolekcja3{
+		margin-top: 300px;
+		margin-left: 100px;
+		width: 80%;
+		height: 80%;
+	}
+	#boczny{
+		font-size: 0.9em;
+		margin-left: 110px;
+		margin-top: -40px;
+	}
+	#boczny2{
+		font-size: 0.9em;
+		margin-left: 110px;
+		margin-top: -80px;
+		width: 350px;
+	}
+	#boczny3{
+		font-size: 0.9em;
+		margin-left: 390px;
+		margin-top: -220px;
+	}
+}

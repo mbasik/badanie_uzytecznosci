@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>mgr- Sklep internetowy</title>
+</head>
+<body>
+<div class="logowanie">
+Zarejestruj się | <a href="logowanie.html">Zaloguj się</a>
+</div>
+<div class="header">
+<a href="index.html"><img src="img/logo4.png" alt="logo strony"></a>
+
+</div>
+<div class= "basket">
+	<img class="ikonka" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM3SURBVGhD1dlZyA5RHMfx15rlwlZyYSmJKOFGKSlrSSmKQhSi3Ch5iyJJCYU7bpStkDUi4UL2lK0I2S4QZU1ZsvP91XPq3+k8D88sZ5751efmzDwz58wz2/9ME9mC7/hTxW+8xhnMQks0ZEKdr+U0OqDhoiMe6nAt29FwmYMLuF7FLbyFHYgGPwClSxvshx3MepQyffALbiBPUdpchP1XBqKUWQ47kKUoZQbDDuQsShtdG24gepB2QimzFfZfmYZSZhLsQC5jGw5EpIO5GF2QOO3xBXYwRXmOvkicEwhtuAh7kTiLENpoEVI9mHvD3+BajKvhDrTeVdPmLIDbzopKWzVTYV90nyFVbsNtTHagVtxbgU5LP/b5pJtJrTTDrSvHkCrrYDf4Bq1QLVkMpC10gbt1ZTpSZSTsBmUZ9FwJuQ+tc8O0OXrVcdvQAfKXO/7Be4zWSBUd/XewG45NN51MsgehHcTwCnqmZZKZ8HcwGXpI+a5By/Wi6S+bCPf7+ZU23wO4dWQlMktX/ITdwSqEkuZiHw23XD6iMzKNX2zdRChpBnIKbrlsRObxiy05BP9FT7dnLXtp2hxNMbnfasB22WHYB+A39ETm8YutvOU6FWWLLfkKf1pJ57WWfTBtzl243z6qtMnDSpujyY9ByC1+sfUD3WCT5BrZBNcuR5FrtHO7Q5kHm3oHogPh/kVnBHJNqNjyO1zvQFbDtcl5RIk6aHes00vvVe58r/ca+WTaJHRbziV5FlsqGVogSkLFVlamIGr8Yiut91iI6PHrhSXQlE1StQq1XOMXW3rjLawzaaJOazLADqa031FmwA5ENEEwAf0QqjX+h0qG6NkNfzBp6Q14J6JGX31PItShtPojajS7ocm2zwh1KAk97Qv7jKEdz4Wqun2wRVM9NOM/HIVlDC5Bn7ivYDyqpTt24QU02bAGmpQrPKNgvwSLLtqx8NMO92DXlX9NxUaJrcWtc/AzG6F1pRcKzROEOqYJCD9+/WGF/sGoOY5QxzS940dzu6F1dWr2QKEZCk1E2I7pS3Do7qPbtb6d2HVlMxoiQ3AQqgKPYBiqpSM2QJN8Km1VrEUrqBogTU1/AdTT8MqYIhQbAAAAAElFTkSuQmCC"> 
+	<a href="koszyk.html">Koszyk</a>
+</div>
+<div class="wyszukiwarka">
+<form action="http://wierzba.wzks.uj.edu.pl/~13_masiulaniec" method="get">	
+		<input type="textarea" placeholder="wyszukaj..." name="wyszukaj" id="wyszukaj">
+		<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/wyszukiwarka.html'" type="button" value="wyslij">Szukaj</button>
+	</form>
+</div>
+<nav class="navigation">
+	<ol>
+
+		<li><a href="meble.html">Meble</a></li>
+		<li><a href="dekoracja.html">Dekoracja</a></li>
+		<li><a href="lampy.html">Lampy</a></li>
+		<li><a href="dodatki.html">Dodatki</a></li>
+		<li><a href="bizuteria.html">Biżuteria</a></li>
+		<li><a class="promocje" href="promocje.html">Wyprzedaż</a></li>
+	</ol>
+
+</nav>
+<aside>
+<a href="index.html"><img class="glowna" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJPSURBVGhD7do5ixRBGIfx8QYRDERQWPAIzQQRBAURv4LgCoLifSsiiIGBkZmIibBgZiAaKpgIot9AEBMxMRINDNREPJ7/sK80RU3121d1g/3CL5iarmaenZmlZ3Yn44zzf806bF20Sgt9zzye4SZWaMEx1/EbfxZ9xnb0NldgD0YewxPzDcV9soBe5jLCByOemNi+h8g+syJMWUxsT/YQRRRf3/IjuC2pmPBYyRpyCWHEO2zCk8KamRUTHifZQmZFbIRmJbwx4TGSJeQiUhE23pjwfuk85AJSEUtwDmumt9Ixy6EJ75NOQzwRd6D1V/DGhOvSWch5eCOMNyZck05C9FKpGmE8MTGthzSJMHViWg05i6YRpmpMayFn0FaEqRLTSkgXEcYb0zjkNLqKMJ6Yl1iKWnMKXUcYT8wDVI7JGWFajzmJ3BGmtZgT6CvCNI4ZQoSpHXMcQ4kwxRhd5pfG7MIvFA/oO8J4Ym5gOuGXBUOJMGUxLzCdzfgELb7BkCJMGPMIWtfb4Rj+zVrshN5YmroRb3EUBxIO4Sli+1OKMXp8e7FjemvGNHkm9Ox6Rj/VD4idI6UYk5wmEV9RZeo8K+KK0W+w2GaPXCFyDcnZjdhGj5wh+sY+OWMIxpAaxhCPMaSGMcRjUCG6cIxt9NBfY6vMc8TO43EVyZlDbKOXrkg9sx5fEDuHx0GUjj5YxTZ7fIc+ft5OuIePiO33+IkNKJ3DiJ1gKO7DPXcRO0nfXmM1Ks0RvEfshLnp/XQLjf7BZgv2YH8P9mEbliExk8lfN8HbebLAzesAAAAASUVORK5CYII=">Strona główna</a>
+	<a href="promocje.html" alt="Promocje"><h6>Promocje</h6></a>
+	<a href="meble.html" alt="Meble"><h3>Meble</h3></a>
+	<ul>
+		<a href="biurka.html" alt="Biurka"><h3>Biurka (3)</h3></a>
+		<a href="lozka.html" alt="Łóżka"><h3>Łóżka (4)</h3></a>
+		<a href="sofy.html" alt="Sofy"><h3>Sofy (2)</h3></a>
+		<a href="szafy.html" alt="Szafy"><h3>Szafy (1)</h3></a>
+	</ul>
+	<a href="dekoracja.html" alt="Dekoracja"><h3>Dekoracja</h3></a>
+	<ul>
+		<a href="lazienka.html" alt="Łazienka"><h3>Łazienka (4)</h3></a>
+		<a href="pokoj.html" alt="Pokój"><h3>Pokój (6)</h3></a>
+	</ul>
+	<a href="lampy.html" alt="Lampy"><h3>Lampy</h3></a>
+	<ul>
+		<a href="lampy_wiszace.html" alt="Lampy wiszące"><h3>Wiszące (4)</h3></a>
+		<a href="lampy_stojace" alt="Lampy stojące"><h3>Stojące (3)</h3></a>
+		<a href="lampy_biurkowe.html" alt="Lampy na biurko"><h3>Na biurko (2)</h3></a>
+	</ul>
+	<a href="dodatki.html" alt="Dodatki"><h3>Dodatki</h3></a>
+	<ul>
+		<a href="dodatki_torby.html" alt="Torby"><h3>Torby (4)</h3></a>
+		<a href="dodatki_portfele.html" alt="Portfele"><h3>Portfele (2)</h3></a>
+	</ul>
+	<a href="bizuteria.html" alt="Biżuteria"><h3>Biżuteria</h3></a>
+	<ul>
+		<a href="zegarki.html" alt="Zegarki"><h3>Zegarki (3)</h3></a>
+		<a href="naszyjniki.html" alt="Naszyjniki"><h3>Naszyjniki (5)</h3></a>
+		<a href="pierscionki.html" alt="Pierścionki"><h3>Pierścionki (4)</h3></a>
+	</ul>
+</aside>
+
+<article>
+<h1>Dekoracja</h1>
+<a class="top" href="#top">Góra&uarr;</a>
+	<section>
+		<img class="zdjecie" src="img/dekoracja1.jpg" alt="biurko">
+		<div class="nazwa"><h4>Drabinka łazienkowa</h4></div>
+		<div class="opis">Drabinka zawiera trzy pólki, jest ciekawym elementem dekoracyjnym. Jest w całości wykonany z drewna, lekki. Istnieje możliwożść złożenia</div>
+		<div class="cena">Cena: 159zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja2.jpg" alt="biurko">
+		<div class="nazwa"><h4>Krzesło łazienkowe</h4></div>
+		<div class="opis">Krzesło plastikowe w dwóch wersjach kolorystycznych: białej i czarnej. Krzesło nie ma typowych romiarów- jest wyższe, idealne do mebli łazienkowych. Lekkie, o prostych kształtach.</div>
+		<div class="cena">Cena: 59zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja3.jpg" alt="biurko">
+		<div class="nazwa"><h4>Zestaw baterii łazienkowej Chromo</h4></div>
+		<div class="opis">Zestaw Chromo odzwierciedla kunszt mosiądzu, który podkreśla charakter łazienki. W naszej ofercie oświetleniowej można znaleźć również dopasowane do nich mosiężne lampy łazienkowe.</div>
+		<div class="cena">Cena: 550zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja4.jpg" alt="łóżko">
+		<div class="nazwa"><h4>Ceramiczna mydelniczka i kubek</h4></div>
+		<div class="opis">Zestaw obejmuje mydelniczkę, kubeczek oraz ozdobę w postaci ceramicznej kostki.</div>
+		<div class="cena">Cena: 120zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja5.jpg" alt="łóżko">
+		<div class="nazwa"><h4>Naklejka naścienna Adventure</h4></div>
+		<div class="opis">Wodoodporna nakleja, łatwa w montażu. Kompozycja jest podzielona na części dlatego może być umieszczana również na rogach pomieszczeń. Cena za całość kompozycji </div>
+		<div class="cena">Cena: 105zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja6.jpg" alt="łóżko">
+		<div class="nazwa"><h4>Naklejka naścienna Stars</h4></div>
+		<div class="opis">Wodoodporna nakleja, łatwa w montażu. Stworzona na przeźroczystym materiale, idealna dla ciemnych ścian.</div>
+		<div class="cena">Cena: 95zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja7.jpg" alt="łóżko">
+		<div class="nazwa"><h4>Zestaw naścienny Garden</h4></div>
+		<div class="opis">Zestaw zawiera naklejkę-drzewo, drewniany mały domek dla ptaków, drewniane drabinki. Elementy drewniane są łatwe w montarzu i wykonane z lekkich, cienkich drewnianych elementów.</div>
+		<div class="cena">Cena: 160zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja8.jpg" alt="sofa">
+		<div class="nazwa"><h4>Drewniane literki</h4></div>
+		<div class="opis">Posiadamy dwa motywy zdobień- dla dzieci oraz klasyczne drewniane. Literki można zamawiać dowolnie, tworząc z nich słowa i wyrazy. Cena obejmuje jedną literkę.</div>
+		<div class="cena">Cena: 8zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja9.jpg" alt="sofa">
+		<div class="nazwa"><h4>Pufa Wooden</h4></div>
+		<div class="opis">Pufa w kształcie drewnianego pniaka. Wygodna, z ciekawym designem, podkreśli charakter pomieszczenia.</div>
+		<div class="cena">Cena: 80zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+	<section>
+		<img class="zdjecie" src="img/dekoracja10.jpg" alt="szafa">
+		<div class="nazwa"><h4>Dywan Mumu</h4></div>
+		<div class="opis">Dywan z bydlęcej skóry.Wodoodporny, 100% skóra. Produkt naturalny, struktura oraz układ kolorystyczny mogą się różnić dla każdego indywidualnego modelu.</div>
+		<div class="cena">Cena: 990zł</div>
+		<div class="dodaj">
+			<form method="get" action="/page2">
+				<button onclick="location.href='http://leszczyna.wzks.uj.edu.pl/~13_masiulaniec/mgr/dodaj.html'" type="button" value="dodaj do koszyka">Dodaj do koszyka</button>
+			</form>
+		</div>
+	</section>
+</article>
+<footer>
+	<div class="kontakt">
+		<h5>Kontakt</h5>
+		<br>email: sklep@things.pl
+		<br>+48 11 111 11 11
+		<br>Ul. Stradomska
+		<br> Poniedzialek-piatek 10.00 – 18.00 
+		<br> Sobota 10.00 – 14.00
+	</div>
+
+	<div class="producenci">
+		<h5>Producenci</h5>
+		<br>Joanna Olkuszyńska - olukszy@gmail.com
+		<br>Maria Sierpowicz - mariasierpowicz@gmail.com
+		<br>Marcin Kuchciński - kuchmarcin@gmail.com
+		<br>Design Trio - triozrio@gamil.com
+		<br>Makuszynski Design
+		<br>Wolnicki Meble i Dekoracje
+	</div>
+
+	<div class="regulaminy">
+		<h5>Regulaminy</h5>
+		<br> <a href="regulamin.html">Regulamin</a>
+		<br> <a href="polityka.html"> Polityka prywatności</a>
+	</div>
+<div class="info">
+	<img class="logo2" src="img/logo2.png"><div class="tekst_boczny">Things- to miejsce, w którym spotykają się designerzy z różnych krajów świata, pasjonaci rzemiosła oraz klienci- osoby dla których meble to nie tylko praktyczna i potrzebna rzecz zakupiona do mieszkania, ale również sztuka, spotkanie z jej autorem, zapis jego myśli. Kupując meble na tej stronie możesz nie tylko wybrać odpowiednich wymiarów przedmiot, ale również wprowadzić do swojego mieszkania charakter i styl, który może zapoczątkować szereg zmian w Twoim domu. Pozwól się zatopić w świat pasji i rzemiosła. Zamarz, wybierz, a następnie podziwiaj każdego dnia przedmiot, który zachwyci również innych. Projektanci, z którymi współpracujemy: <h5>Dębska Renata, Milano Piter, Focani Daniel, Marcos Damiani, Onionos Roberto</h5> i wiele innych.  </div>
+	
+</div>
+<div class="podpis">
+	Autorka strony: Barbara Masiulaniec, ELEKTRONICZNE PRZETWARZANIE INFORACJI, EPI 2018, <a href="projekt.html">O projekcie</a>
+</div>
+
+</footer>
+</body>
+</html>
